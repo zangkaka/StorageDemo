@@ -11,7 +11,7 @@ class InternalDemo {
 
 
     companion object {
-        private val FILE_NAME = "my_file.txt"
+        private const val FILE_NAME = "my_file.txt"
 
         fun writeFile(context: Context) {
             val fileOutputStream = context.openFileOutput(FILE_NAME, Context.MODE_PRIVATE)
